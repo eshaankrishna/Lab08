@@ -14,8 +14,8 @@ public class CustomList {
         cities.add(city);
     }
 
-    
-
-    // public boolean hasCity(City city) { ... }
+    public boolean hasCity(City city) {
+        return cities.contains(city);
+    }
     // deleteCity and countCities
 }
